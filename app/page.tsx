@@ -5,6 +5,7 @@ import FilterPanel, { DEFAULT_FILTERS } from "@/components/FilterPanel";
 import DetailModal from "@/components/DetailModal";
 import CompareModal from "@/components/CompareModal";
 import { WohnwertBadge } from "@/components/WohnwertBadge";
+import ErrorBoundary from "@/components/ErrorBoundary";
 import type { PropertyPin, PropertyDetail, Filters, Stats } from "@/lib/types";
 import { BarChart2, List, Map as MapIcon, TrendingUp, Home, Euro, Bookmark, BookmarkCheck, Download } from "lucide-react";
 import { useFavorites } from "@/lib/useFavorites";
@@ -251,7 +252,8 @@ export default function Dashboard() {
   const kreisData = stats?.kreis_data.sort((a, b) => (b.median_ww ?? 0) - (a.median_ww ?? 0)).slice(0, 10) ?? [];
 
   return (
-    <div className="flex h-screen overflow-hidden bg-slate-900 text-slate-100">
+    <ErrorBoundary>
+      <div className="flex h-screen overflow-hidden bg-slate-900 text-slate-100">
       {/* Sidebar Filter */}
       <FilterPanel 
         filters={filters} 
@@ -563,7 +565,8 @@ export default function Dashboard() {
           onRemove={(id) => setCompareProps(prev => prev.filter(p => p.scoutId !== id))}
         />
       )}
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 }
 
