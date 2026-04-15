@@ -9,7 +9,10 @@ let _detailData: Record<number, Record<string, unknown>> | null = null;
 export function getMapData(): PropertyPin[] {
   if (!_mapData) {
     const p = path.join(process.cwd(), "public", "data", "properties_map.json");
-    _mapData = JSON.parse(fs.readFileSync(p, "utf-8")) as PropertyPin[];
+    const content = fs.readFileSync(p, "utf-8");
+    // Replace all NaN values with null before parsing (handles :NaN, , NaN, etc.)
+    const sanitizedContent = content.replace(/\bNaN\b/g, "null");
+    _mapData = JSON.parse(sanitizedContent) as PropertyPin[];
     _mapIndex = new Map(_mapData.map(pin => [pin.scoutId, pin]));
   }
   return _mapData;
@@ -23,7 +26,10 @@ export function getMapPin(scoutId: number): PropertyPin | undefined {
 export function getDetailData(): Record<number, Record<string, unknown>> {
   if (!_detailData) {
     const p = path.join(process.cwd(), "public", "data", "properties_detail.json");
-    _detailData = JSON.parse(fs.readFileSync(p, "utf-8")) as Record<number, Record<string, unknown>>;
+    const content = fs.readFileSync(p, "utf-8");
+    // Replace NaN values with null before parsing
+    const sanitizedContent = content.replace(/:NaN/g, ":null");
+    _detailData = JSON.parse(sanitizedContent) as Record<number, Record<string, unknown>>;
   }
   return _detailData;
 }

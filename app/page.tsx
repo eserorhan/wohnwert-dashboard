@@ -118,7 +118,7 @@ function filtersToURL(f: Filters): string {
   if (f.rendite_cashflow_min > -500) p.set("rc", String(f.rendite_cashflow_min));
   if (f.rendite_eigenkapital !== 20) p.set("re", String(f.rendite_eigenkapital));
   if (f.rendite_zinssatz !== 3.8) p.set("rz", String(f.rendite_zinssatz));
-  return "?" + p.toString();
+  return p.toString();
 }
 
 export default function Dashboard() {
@@ -138,14 +138,14 @@ export default function Dashboard() {
   const [compareProps, setCompareProps] = useState<PropertyDetail[]>([]);
   const [heatmapMode, setHeatmapMode] = useState<"dots" | "wohnwert" | "nahversorgung" | "oepnv" | "pendelzeit" | "preis" | "luft" | "rendite_brutto" | "rendite_netto" | "rendite_cashflow" | "ww_preis" | "ww_standort" | "ww_infrastruktur" | "ww_ausstattung" | "ww_mobilitaet">("dots");
   const [showNoiseMap, setShowNoiseMap] = useState(false);
-  const [mapRef, setMapRef] = useState<any>(null);
+  const mapRef = useRef<any>(null);
   const [impactData, setImpactData] = useState<{ total: number; improved: number; worsened: number; unchanged: number; avgDelta: number } | null>(null);
   const debounceRef = useRef<NodeJS.Timeout | null>(null);
 
   // Read filters from URL on mount
   useEffect(() => {
     const fromURL = filtersFromURL();
-    setFilters(fromURL);
+    setFilters((prev) => JSON.stringify(prev) === JSON.stringify(fromURL) ? prev : fromURL);
   }, []);
 
   // Load stats once
@@ -162,7 +162,10 @@ export default function Dashboard() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const qs = filtersToURL(filters);
-      window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
+      const nextUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+      if (`${window.location.pathname}${window.location.search}` !== nextUrl) {
+        window.history.replaceState(null, "", nextUrl);
+      }
     }
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => {
@@ -189,6 +192,9 @@ export default function Dashboard() {
         setImpactData(null);
       }
     }, 400);
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
   }, [JSON.stringify(filters)]);
 
   // Load detail on selection
@@ -201,6 +207,18 @@ export default function Dashboard() {
 
   const handleSelect = useCallback((p: PropertyPin) => {
     setSelected(prev => prev?.scoutId === p.scoutId ? null : p);
+  }, []);
+
+  const handleNoiseMapToggle = useCallback(() => {
+    setShowNoiseMap(prev => !prev);
+  }, []);
+
+  const handleResetMapView = useCallback(() => {
+    mapRef.current?.flyTo({ center: [6.9163, 51.1124], zoom: 9, duration: 1000 });
+  }, []);
+
+  const handleMapReady = useCallback((map: any) => {
+    mapRef.current = map;
   }, []);
 
   const handleCompare = useCallback(async () => {
@@ -244,12 +262,12 @@ export default function Dashboard() {
     URL.revokeObjectURL(url);
   }, [properties, favs]);
 
-  const wwKlassenData = stats ? Object.entries(stats.wohnwert_klassen).map(([k, v]) => ({
+  const wwKlassenData = stats && stats.wohnwert_klassen ? Object.entries(stats.wohnwert_klassen).map(([k, v]) => ({
     name: k === "unterdurchschnittlich" ? "Unter Ø" : k.charAt(0).toUpperCase() + k.slice(1),
     value: v, color: WW_COLORS[k] ?? "#6b7280",
   })) : [];
 
-  const kreisData = stats?.kreis_data.sort((a, b) => (b.median_ww ?? 0) - (a.median_ww ?? 0)).slice(0, 10) ?? [];
+  const kreisData = stats?.kreis_data ? stats.kreis_data.sort((a, b) => (b.median_ww ?? 0) - (a.median_ww ?? 0)).slice(0, 10) : [];
 
   return (
     <ErrorBoundary>
@@ -262,12 +280,8 @@ export default function Dashboard() {
         heatmapMode={heatmapMode}
         onHeatmapChange={setHeatmapMode}
         showNoiseMap={showNoiseMap}
-        onNoiseMapToggle={() => setShowNoiseMap(!showNoiseMap)}
-        onResetMapView={() => {
-          if (mapRef) {
-            mapRef.flyTo({ center: [6.9163, 51.1124], zoom: 9, duration: 1000 });
-          }
-        }}
+        onNoiseMapToggle={handleNoiseMapToggle}
+        onResetMapView={handleResetMapView}
         impactData={impactData}
       />
 
@@ -382,8 +396,8 @@ export default function Dashboard() {
                 heatmapMode={heatmapMode}
                 onHeatmapChange={setHeatmapMode}
                 showNoiseMap={showNoiseMap}
-                onNoiseMapToggle={() => setShowNoiseMap(!showNoiseMap)}
-                onMapReady={setMapRef}
+                onNoiseMapToggle={handleNoiseMapToggle}
+                onMapReady={handleMapReady}
               />
             </div>
           )}
@@ -395,6 +409,10 @@ export default function Dashboard() {
               <div className="flex items-center gap-3 mb-4 flex-wrap">
                 <span className="text-xs text-slate-400 font-medium">Sortieren:</span>
                 {([
+                  { label: "WohnWert", key: "wohnwert" },
+                  { label: "Preis", key: "price" },
+                  { label: "Größe", key: "size" },
+                  { label: "Zimmer", key: "rooms" },
                   { key: "wohnwert", label: "WohnWert" },
                   { key: "price", label: "Preis" },
                   { key: "size", label: "Größe" },
