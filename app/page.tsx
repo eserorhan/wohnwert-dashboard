@@ -189,7 +189,7 @@ export default function Dashboard() {
         setImpactData(null);
       }
     }, 400);
-  }, [filters]);
+  }, [JSON.stringify(filters)]);
 
   // Load detail on selection
   useEffect(() => {
