@@ -1,0 +1,2275 @@
+{
+  "total": 17186,
+  "miete": 7141,
+  "kauf": 10045,
+  "wohnungen": 12369,
+  "haeuser": 4817,
+  "median_wohnwert": 49.9,
+  "median_miete_psqm": 13.08,
+  "median_kauf_psqm": 3943.0,
+  "median_miete_kalt": 844.0,
+  "median_kauf_preis": 449900.0,
+  "wohnwert_klassen": {
+    "durchschnittlich": 6088,
+    "unterdurchschnittlich": 5165,
+    "gut": 4930,
+    "mangelhaft": 506,
+    "exzellent": 497
+  },
+  "is24_kategorien": {
+    "guenstig": 4399,
+    "durchschnitt": 3697,
+    "teuer": 2318,
+    "sehr_guenstig": 1870,
+    "sehr_teuer": 1396
+  },
+  "kreise": {
+    "Köln": 4494,
+    "Düsseldorf": 3065,
+    "Kreis Mettmann": 1463,
+    "Wuppertal": 1320,
+    "Rhein-Kreis Neuss": 1265,
+    "Rhein-Erft-Kreis": 1180,
+    "Rheinisch-Bergischer Kreis": 791,
+    "Krefeld": 770,
+    "Solingen": 605,
+    "Leverkusen": 460,
+    "Rhein-Sieg-Kreis": 452,
+    "Duisburg": 345,
+    "Essen": 307,
+    "Remscheid": 305,
+    "Ennepe-Ruhr-Kreis": 179,
+    "Kreis Viersen": 114,
+    "Oberbergischer Kreis": 41,
+    "Mülheim an der Ruhr": 30
+  },
+  "regionen": {
+    "Köln": 4494,
+    "Düsseldorf": 3065,
+    "Kreis Mettmann": 1365,
+    "Wuppertal": 1320,
+    "Neuss/Rhein-Kreis": 1265,
+    "Rhein-Erft-Kreis": 1180,
+    "Rheinisch-Bergischer Kreis": 791,
+    "Krefeld": 770,
+    "Solingen": 605,
+    "Leverkusen": 460,
+    "Niederrhein": 459,
+    "Sonstige": 452,
+    "Raum Essen": 337,
+    "Remscheid": 305,
+    "Ennepe-Ruhr-Kreis": 179,
+    "Heiligenhaus": 98,
+    "Bergisches Land": 41
+  },
+  "bbox": {
+    "min_lat": 50.7595,
+    "max_lat": 51.4152,
+    "min_lng": 6.4981,
+    "max_lng": 7.3557,
+    "center_lat": 51.1124,
+    "center_lng": 6.9163
+  },
+  "kreis_data": [
+    {
+      "inkar_kreis_name": "Duisburg",
+      "count": 345,
+      "median_ww": 31.7,
+      "median_psqm_miete": 9.4,
+      "median_psqm_kauf": 2832.5,
+      "median_miete": 570.0,
+      "median_kauf": 348000.0,
+      "center_lat": 51.4,
+      "center_lng": 6.7
+    },
+    {
+      "inkar_kreis_name": "Düsseldorf",
+      "count": 3065,
+      "median_ww": 60.4,
+      "median_psqm_miete": 16.8,
+      "median_psqm_kauf": 5251.0,
+      "median_miete": 1050.0,
+      "median_kauf": 549500.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "inkar_kreis_name": "Ennepe-Ruhr-Kreis",
+      "count": 179,
+      "median_ww": 44.4,
+      "median_psqm_miete": 8.4,
+      "median_psqm_kauf": 2581.0,
+      "median_miete": 670.0,
+      "median_kauf": 369999.0,
+      "center_lat": 51.3,
+      "center_lng": 7.3
+    },
+    {
+      "inkar_kreis_name": "Essen",
+      "count": 307,
+      "median_ww": 43.0,
+      "median_psqm_miete": 12.2,
+      "median_psqm_kauf": 4457.0,
+      "median_miete": 1050.0,
+      "median_kauf": 550000.0,
+      "center_lat": 51.4,
+      "center_lng": 7.0
+    },
+    {
+      "inkar_kreis_name": "Krefeld",
+      "count": 770,
+      "median_ww": 44.5,
+      "median_psqm_miete": 10.0,
+      "median_psqm_kauf": 2857.5,
+      "median_miete": 635.0,
+      "median_kauf": 395000.0,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "inkar_kreis_name": "Kreis Mettmann",
+      "count": 1463,
+      "median_ww": 50.6,
+      "median_psqm_miete": 11.3,
+      "median_psqm_kauf": 3535.0,
+      "median_miete": 740.0,
+      "median_kauf": 460000.0,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "inkar_kreis_name": "Kreis Viersen",
+      "count": 114,
+      "median_ww": 53.6,
+      "median_psqm_miete": 12.5,
+      "median_psqm_kauf": 3662.0,
+      "median_miete": 952.5,
+      "median_kauf": 497975.0,
+      "center_lat": 51.3,
+      "center_lng": 6.5
+    },
+    {
+      "inkar_kreis_name": "Köln",
+      "count": 4494,
+      "median_ww": 50.6,
+      "median_psqm_miete": 14.9,
+      "median_psqm_kauf": 5206.0,
+      "median_miete": 885.0,
+      "median_kauf": 499000.0,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "inkar_kreis_name": "Leverkusen",
+      "count": 460,
+      "median_ww": 45.8,
+      "median_psqm_miete": 11.5,
+      "median_psqm_kauf": 3434.0,
+      "median_miete": 802.9,
+      "median_kauf": 419500.0,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "inkar_kreis_name": "Mülheim an der Ruhr",
+      "count": 30,
+      "median_ww": 34.7,
+      "median_psqm_miete": 11.0,
+      "median_psqm_kauf": 4446.0,
+      "median_miete": 790.0,
+      "median_kauf": 930000.0,
+      "center_lat": 51.4,
+      "center_lng": 6.9
+    },
+    {
+      "inkar_kreis_name": "Oberbergischer Kreis",
+      "count": 41,
+      "median_ww": 41.6,
+      "median_psqm_miete": 7.9,
+      "median_psqm_kauf": 1892.5,
+      "median_miete": 610.0,
+      "median_kauf": 342000.0,
+      "center_lat": 51.2,
+      "center_lng": 7.3
+    },
+    {
+      "inkar_kreis_name": "Remscheid",
+      "count": 305,
+      "median_ww": 45.8,
+      "median_psqm_miete": 8.0,
+      "median_psqm_kauf": 2325.5,
+      "median_miete": 499.0,
+      "median_kauf": 305144.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "inkar_kreis_name": "Rhein-Erft-Kreis",
+      "count": 1180,
+      "median_ww": 48.8,
+      "median_psqm_miete": 13.2,
+      "median_psqm_kauf": 3572.5,
+      "median_miete": 1072.0,
+      "median_kauf": 420000.0,
+      "center_lat": 50.9,
+      "center_lng": 6.8
+    },
+    {
+      "inkar_kreis_name": "Rhein-Kreis Neuss",
+      "count": 1265,
+      "median_ww": 47.9,
+      "median_psqm_miete": 12.8,
+      "median_psqm_kauf": 3731.0,
+      "median_miete": 1050.0,
+      "median_kauf": 479000.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "inkar_kreis_name": "Rhein-Sieg-Kreis",
+      "count": 452,
+      "median_ww": 43.6,
+      "median_psqm_miete": 12.5,
+      "median_psqm_kauf": 3911.0,
+      "median_miete": 1085.0,
+      "median_kauf": 454900.0,
+      "center_lat": 50.8,
+      "center_lng": 7.1
+    },
+    {
+      "inkar_kreis_name": "Rheinisch-Bergischer Kreis",
+      "count": 791,
+      "median_ww": 51.2,
+      "median_psqm_miete": 13.1,
+      "median_psqm_kauf": 3443.5,
+      "median_miete": 1250.0,
+      "median_kauf": 458500.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "inkar_kreis_name": "Solingen",
+      "count": 605,
+      "median_ww": 48.4,
+      "median_psqm_miete": 10.3,
+      "median_psqm_kauf": 2954.0,
+      "median_miete": 764.5,
+      "median_kauf": 404900.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "inkar_kreis_name": "Wuppertal",
+      "count": 1320,
+      "median_ww": 45.7,
+      "median_psqm_miete": 8.7,
+      "median_psqm_kauf": 2308.0,
+      "median_miete": 550.0,
+      "median_kauf": 285000.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    }
+  ],
+  "plz_data": [
+    {
+      "zipCode": 679,
+      "count": 2,
+      "median_ww": 44.8,
+      "median_psqm": 17.1,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 40000,
+      "count": 32,
+      "median_ww": 63.0,
+      "median_psqm": 12.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40210,
+      "count": 42,
+      "median_ww": 70.4,
+      "median_psqm": 19.1,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40211,
+      "count": 120,
+      "median_ww": 69.9,
+      "median_psqm": 20.7,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40212,
+      "count": 4,
+      "median_ww": 70.8,
+      "median_psqm": 2498.8,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40213,
+      "count": 70,
+      "median_ww": 59.6,
+      "median_psqm": 4135.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40215,
+      "count": 104,
+      "median_ww": 70.2,
+      "median_psqm": 3111.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40217,
+      "count": 52,
+      "median_ww": 68.3,
+      "median_psqm": 20.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40219,
+      "count": 83,
+      "median_ww": 66.7,
+      "median_psqm": 35.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40221,
+      "count": 50,
+      "median_ww": 55.2,
+      "median_psqm": 41.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40223,
+      "count": 94,
+      "median_ww": 65.2,
+      "median_psqm": 22.8,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40225,
+      "count": 56,
+      "median_ww": 65.1,
+      "median_psqm": 389.2,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40227,
+      "count": 117,
+      "median_ww": 67.5,
+      "median_psqm": 38.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40229,
+      "count": 67,
+      "median_ww": 63.9,
+      "median_psqm": 2133.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40231,
+      "count": 33,
+      "median_ww": 59.9,
+      "median_psqm": 16.7,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40233,
+      "count": 85,
+      "median_ww": 62.8,
+      "median_psqm": 2661.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40235,
+      "count": 105,
+      "median_ww": 64.2,
+      "median_psqm": 4260.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40237,
+      "count": 99,
+      "median_ww": 63.5,
+      "median_psqm": 4565.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40239,
+      "count": 93,
+      "median_ww": 57.7,
+      "median_psqm": 4255.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40271,
+      "count": 1,
+      "median_ww": 39.6,
+      "median_psqm": 19.8,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40293,
+      "count": 1,
+      "median_ww": 51.7,
+      "median_psqm": 16.7,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40299,
+      "count": 1,
+      "median_ww": 42.8,
+      "median_psqm": 13.5,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40468,
+      "count": 103,
+      "median_ww": 49.5,
+      "median_psqm": 3448.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40470,
+      "count": 60,
+      "median_ww": 60.6,
+      "median_psqm": 4333.5,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40472,
+      "count": 83,
+      "median_ww": 57.1,
+      "median_psqm": 25.3,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40474,
+      "count": 142,
+      "median_ww": 47.7,
+      "median_psqm": 4507.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40476,
+      "count": 147,
+      "median_ww": 66.1,
+      "median_psqm": 4019.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40477,
+      "count": 125,
+      "median_ww": 67.4,
+      "median_psqm": 3543.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40479,
+      "count": 77,
+      "median_ww": 67.4,
+      "median_psqm": 4854.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40489,
+      "count": 149,
+      "median_ww": 46.1,
+      "median_psqm": 5000.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40545,
+      "count": 96,
+      "median_ww": 60.7,
+      "median_psqm": 7674.5,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40547,
+      "count": 69,
+      "median_ww": 60.6,
+      "median_psqm": 5070.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 40549,
+      "count": 111,
+      "median_ww": 56.7,
+      "median_psqm": 6614.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 40589,
+      "count": 74,
+      "median_ww": 53.3,
+      "median_psqm": 3573.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40591,
+      "count": 57,
+      "median_ww": 53.7,
+      "median_psqm": 3736.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40593,
+      "count": 39,
+      "median_ww": 51.5,
+      "median_psqm": 4200.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40595,
+      "count": 42,
+      "median_ww": 57.3,
+      "median_psqm": 2907.5,
+      "center_lat": 51.1,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40597,
+      "count": 110,
+      "median_ww": 57.0,
+      "median_psqm": 4122.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40599,
+      "count": 47,
+      "median_ww": 52.6,
+      "median_psqm": 2944.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40625,
+      "count": 53,
+      "median_ww": 54.2,
+      "median_psqm": 3770.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40627,
+      "count": 101,
+      "median_ww": 42.4,
+      "median_psqm": 3310.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40629,
+      "count": 73,
+      "median_ww": 49.4,
+      "median_psqm": 3333.0,
+      "center_lat": 51.2,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40667,
+      "count": 130,
+      "median_ww": 50.5,
+      "median_psqm": 4299.0,
+      "center_lat": 51.3,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 40668,
+      "count": 57,
+      "median_ww": 48.6,
+      "median_psqm": 3734.0,
+      "center_lat": 51.3,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 40670,
+      "count": 82,
+      "median_ww": 46.7,
+      "median_psqm": 3204.0,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 40699,
+      "count": 128,
+      "median_ww": 45.4,
+      "median_psqm": 2823.5,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40700,
+      "count": 2,
+      "median_ww": 41.6,
+      "median_psqm": 13.4,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 40721,
+      "count": 49,
+      "median_ww": 57.6,
+      "median_psqm": 2314.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40723,
+      "count": 39,
+      "median_ww": 51.3,
+      "median_psqm": 3339.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40724,
+      "count": 55,
+      "median_ww": 43.3,
+      "median_psqm": 3183.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40747,
+      "count": 1,
+      "median_ww": 51.0,
+      "median_psqm": 15.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40764,
+      "count": 180,
+      "median_ww": 52.6,
+      "median_psqm": 3916.0,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 40787,
+      "count": 1,
+      "median_ww": 49.3,
+      "median_psqm": 28.6,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40789,
+      "count": 116,
+      "median_ww": 57.2,
+      "median_psqm": 3619.0,
+      "center_lat": 51.1,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40822,
+      "count": 112,
+      "median_ww": 58.6,
+      "median_psqm": 2299.0,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 40830,
+      "count": 1,
+      "median_ww": 47.1,
+      "median_psqm": 16.3,
+      "center_lat": 51.3,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40878,
+      "count": 77,
+      "median_ww": 62.7,
+      "median_psqm": 3125.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40880,
+      "count": 59,
+      "median_ww": 52.5,
+      "median_psqm": 2602.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 40882,
+      "count": 56,
+      "median_ww": 47.8,
+      "median_psqm": 3406.0,
+      "center_lat": 51.3,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40883,
+      "count": 49,
+      "median_ww": 39.8,
+      "median_psqm": 4067.0,
+      "center_lat": 51.3,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 40885,
+      "count": 50,
+      "median_ww": 44.2,
+      "median_psqm": 3592.0,
+      "center_lat": 51.3,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 41352,
+      "count": 106,
+      "median_ww": 49.4,
+      "median_psqm": 2680.0,
+      "center_lat": 51.2,
+      "center_lng": 6.5
+    },
+    {
+      "zipCode": 41363,
+      "count": 13,
+      "median_ww": 32.7,
+      "median_psqm": 1496.0,
+      "center_lat": 51.1,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 41460,
+      "count": 59,
+      "median_ww": 60.0,
+      "median_psqm": 2677.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41462,
+      "count": 79,
+      "median_ww": 50.4,
+      "median_psqm": 1800.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41464,
+      "count": 64,
+      "median_ww": 54.3,
+      "median_psqm": 3114.5,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41466,
+      "count": 46,
+      "median_ww": 49.3,
+      "median_psqm": 3111.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41468,
+      "count": 69,
+      "median_ww": 49.6,
+      "median_psqm": 4437.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41469,
+      "count": 46,
+      "median_ww": 39.2,
+      "median_psqm": 3027.5,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41470,
+      "count": 42,
+      "median_ww": 45.9,
+      "median_psqm": 3660.0,
+      "center_lat": 51.1,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41472,
+      "count": 34,
+      "median_ww": 46.4,
+      "median_psqm": 3239.0,
+      "center_lat": 51.2,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 41515,
+      "count": 59,
+      "median_ww": 48.1,
+      "median_psqm": 3355.0,
+      "center_lat": 51.1,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 41516,
+      "count": 51,
+      "median_ww": 40.4,
+      "median_psqm": 2828.0,
+      "center_lat": 51.1,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 41539,
+      "count": 44,
+      "median_ww": 55.4,
+      "median_psqm": 3364.0,
+      "center_lat": 51.1,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 41540,
+      "count": 33,
+      "median_ww": 40.4,
+      "median_psqm": 2609.0,
+      "center_lat": 51.1,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 41541,
+      "count": 24,
+      "median_ww": 37.9,
+      "median_psqm": 2935.5,
+      "center_lat": 51.1,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 41542,
+      "count": 39,
+      "median_ww": 48.0,
+      "median_psqm": 2880.0,
+      "center_lat": 51.1,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 41564,
+      "count": 188,
+      "median_ww": 44.8,
+      "median_psqm": 3369.5,
+      "center_lat": 51.2,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 42000,
+      "count": 2,
+      "median_ww": 45.0,
+      "median_psqm": 10.9,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42103,
+      "count": 36,
+      "median_ww": 58.2,
+      "median_psqm": 10.8,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42105,
+      "count": 81,
+      "median_ww": 51.2,
+      "median_psqm": 9.8,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42107,
+      "count": 61,
+      "median_ww": 47.2,
+      "median_psqm": 9.7,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42109,
+      "count": 42,
+      "median_ww": 38.8,
+      "median_psqm": 1698.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42111,
+      "count": 27,
+      "median_ww": 35.9,
+      "median_psqm": 3097.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42113,
+      "count": 42,
+      "median_ww": 37.8,
+      "median_psqm": 2294.5,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42115,
+      "count": 63,
+      "median_ww": 38.5,
+      "median_psqm": 12.0,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42117,
+      "count": 60,
+      "median_ww": 37.8,
+      "median_psqm": 13.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42119,
+      "count": 87,
+      "median_ww": 53.4,
+      "median_psqm": 11.4,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42219,
+      "count": 1,
+      "median_ww": 54.1,
+      "median_psqm": 7.6,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42249,
+      "count": 1,
+      "median_ww": 29.6,
+      "median_psqm": 9.6,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42255,
+      "count": 1,
+      "median_ww": 55.5,
+      "median_psqm": 10.0,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42275,
+      "count": 48,
+      "median_ww": 55.2,
+      "median_psqm": 9.3,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42277,
+      "count": 120,
+      "median_ww": 50.7,
+      "median_psqm": 10.8,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42279,
+      "count": 35,
+      "median_ww": 38.5,
+      "median_psqm": 1766.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42281,
+      "count": 62,
+      "median_ww": 45.6,
+      "median_psqm": 602.1,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42283,
+      "count": 72,
+      "median_ww": 49.7,
+      "median_psqm": 11.9,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42285,
+      "count": 51,
+      "median_ww": 38.2,
+      "median_psqm": 9.4,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42287,
+      "count": 30,
+      "median_ww": 45.0,
+      "median_psqm": 12.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42289,
+      "count": 84,
+      "median_ww": 53.5,
+      "median_psqm": 10.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42327,
+      "count": 37,
+      "median_ww": 34.4,
+      "median_psqm": 1932.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42329,
+      "count": 54,
+      "median_ww": 44.7,
+      "median_psqm": 11.6,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42349,
+      "count": 86,
+      "median_ww": 41.8,
+      "median_psqm": 2052.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42369,
+      "count": 54,
+      "median_ww": 46.6,
+      "median_psqm": 1911.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42389,
+      "count": 75,
+      "median_ww": 42.3,
+      "median_psqm": 1557.0,
+      "center_lat": 51.3,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42399,
+      "count": 8,
+      "median_ww": 35.0,
+      "median_psqm": 2053.0,
+      "center_lat": 51.2,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 42477,
+      "count": 41,
+      "median_ww": 41.6,
+      "median_psqm": 1575.0,
+      "center_lat": 51.2,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 42489,
+      "count": 65,
+      "median_ww": 44.3,
+      "median_psqm": 2325.0,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42549,
+      "count": 84,
+      "median_ww": 48.8,
+      "median_psqm": 1702.5,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42551,
+      "count": 60,
+      "median_ww": 59.7,
+      "median_psqm": 1600.5,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42553,
+      "count": 47,
+      "median_ww": 51.0,
+      "median_psqm": 1933.0,
+      "center_lat": 51.3,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42555,
+      "count": 54,
+      "median_ww": 44.0,
+      "median_psqm": 2255.5,
+      "center_lat": 51.4,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42579,
+      "count": 98,
+      "median_ww": 46.5,
+      "median_psqm": 1886.5,
+      "center_lat": 51.3,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42651,
+      "count": 120,
+      "median_ww": 55.8,
+      "median_psqm": 13.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42653,
+      "count": 54,
+      "median_ww": 36.6,
+      "median_psqm": 1302.5,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42655,
+      "count": 62,
+      "median_ww": 57.7,
+      "median_psqm": 2348.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42656,
+      "count": 2,
+      "median_ww": 52.5,
+      "median_psqm": 678.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42657,
+      "count": 60,
+      "median_ww": 36.8,
+      "median_psqm": 1972.5,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42659,
+      "count": 59,
+      "median_ww": 44.7,
+      "median_psqm": 2435.0,
+      "center_lat": 51.2,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 42697,
+      "count": 73,
+      "median_ww": 51.1,
+      "median_psqm": 14.0,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42699,
+      "count": 56,
+      "median_ww": 38.4,
+      "median_psqm": 2377.0,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42719,
+      "count": 119,
+      "median_ww": 51.3,
+      "median_psqm": 3545.0,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42721,
+      "count": 1,
+      "median_ww": 65.0,
+      "median_psqm": 4898.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 42781,
+      "count": 75,
+      "median_ww": 56.0,
+      "median_psqm": 2757.0,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42799,
+      "count": 111,
+      "median_ww": 58.6,
+      "median_psqm": 3035.0,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 42853,
+      "count": 72,
+      "median_ww": 53.0,
+      "median_psqm": 1300.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42855,
+      "count": 54,
+      "median_ww": 44.2,
+      "median_psqm": 1906.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42857,
+      "count": 36,
+      "median_ww": 36.2,
+      "median_psqm": 1100.5,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42859,
+      "count": 49,
+      "median_ww": 45.1,
+      "median_psqm": 1778.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42897,
+      "count": 65,
+      "median_ww": 44.7,
+      "median_psqm": 2052.0,
+      "center_lat": 51.2,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 42899,
+      "count": 29,
+      "median_ww": 46.4,
+      "median_psqm": 10.0,
+      "center_lat": 51.2,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 42929,
+      "count": 52,
+      "median_ww": 58.2,
+      "median_psqm": 2469.5,
+      "center_lat": 51.1,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 45133,
+      "count": 108,
+      "median_ww": 41.4,
+      "median_psqm": 5348.0,
+      "center_lat": 51.4,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 45219,
+      "count": 68,
+      "median_ww": 52.8,
+      "median_psqm": 2644.0,
+      "center_lat": 51.4,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 45239,
+      "count": 82,
+      "median_ww": 43.2,
+      "median_psqm": 3766.5,
+      "center_lat": 51.4,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 45257,
+      "count": 17,
+      "median_ww": 42.8,
+      "median_psqm": 3026.0,
+      "center_lat": 51.4,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 45259,
+      "count": 32,
+      "median_ww": 27.8,
+      "median_psqm": 3449.0,
+      "center_lat": 51.4,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 45327,
+      "count": 1,
+      "median_ww": 22.7,
+      "median_psqm": 8.8,
+      "center_lat": 51.2,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 45479,
+      "count": 4,
+      "median_ww": 27.0,
+      "median_psqm": 2941.5,
+      "center_lat": 51.4,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 45481,
+      "count": 26,
+      "median_ww": 35.5,
+      "median_psqm": 3780.5,
+      "center_lat": 51.4,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 45525,
+      "count": 10,
+      "median_ww": 52.3,
+      "median_psqm": 2446.5,
+      "center_lat": 51.4,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 45527,
+      "count": 9,
+      "median_ww": 32.5,
+      "median_psqm": 2993.0,
+      "center_lat": 51.4,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 45529,
+      "count": 5,
+      "median_ww": 35.5,
+      "median_psqm": 2992.0,
+      "center_lat": 51.4,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 45549,
+      "count": 34,
+      "median_ww": 30.3,
+      "median_psqm": 2327.0,
+      "center_lat": 51.3,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 47055,
+      "count": 46,
+      "median_ww": 32.8,
+      "median_psqm": 10.3,
+      "center_lat": 51.4,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 47226,
+      "count": 11,
+      "median_ww": 34.8,
+      "median_psqm": 8.8,
+      "center_lat": 51.4,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 47229,
+      "count": 38,
+      "median_ww": 38.0,
+      "median_psqm": 877.5,
+      "center_lat": 51.4,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 47239,
+      "count": 14,
+      "median_ww": 27.8,
+      "median_psqm": 2271.5,
+      "center_lat": 51.4,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 47249,
+      "count": 71,
+      "median_ww": 31.9,
+      "median_psqm": 2427.0,
+      "center_lat": 51.4,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 47259,
+      "count": 105,
+      "median_ww": 30.6,
+      "median_psqm": 1677.0,
+      "center_lat": 51.4,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 47269,
+      "count": 39,
+      "median_ww": 30.7,
+      "median_psqm": 2284.0,
+      "center_lat": 51.4,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 47279,
+      "count": 21,
+      "median_ww": 28.0,
+      "median_psqm": 2115.0,
+      "center_lat": 51.4,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 47788,
+      "count": 1,
+      "median_ww": 42.6,
+      "median_psqm": 8.0,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47798,
+      "count": 196,
+      "median_ww": 53.4,
+      "median_psqm": 11.6,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47799,
+      "count": 131,
+      "median_ww": 45.1,
+      "median_psqm": 11.5,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47800,
+      "count": 88,
+      "median_ww": 32.6,
+      "median_psqm": 2831.5,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47802,
+      "count": 10,
+      "median_ww": 30.7,
+      "median_psqm": 4220.5,
+      "center_lat": 51.4,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47803,
+      "count": 39,
+      "median_ww": 48.9,
+      "median_psqm": 1946.0,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47804,
+      "count": 42,
+      "median_ww": 32.2,
+      "median_psqm": 2775.5,
+      "center_lat": 51.3,
+      "center_lng": 6.5
+    },
+    {
+      "zipCode": 47805,
+      "count": 42,
+      "median_ww": 45.2,
+      "median_psqm": 1154.5,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47807,
+      "count": 78,
+      "median_ww": 43.4,
+      "median_psqm": 2385.5,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47809,
+      "count": 56,
+      "median_ww": 42.4,
+      "median_psqm": 2392.5,
+      "center_lat": 51.3,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47829,
+      "count": 87,
+      "median_ww": 39.8,
+      "median_psqm": 2753.0,
+      "center_lat": 51.4,
+      "center_lng": 6.6
+    },
+    {
+      "zipCode": 47877,
+      "count": 114,
+      "median_ww": 53.6,
+      "median_psqm": 3212.0,
+      "center_lat": 51.3,
+      "center_lng": 6.5
+    },
+    {
+      "zipCode": 50127,
+      "count": 26,
+      "median_ww": 52.3,
+      "median_psqm": 2555.5,
+      "center_lat": 50.9,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 50129,
+      "count": 86,
+      "median_ww": 48.7,
+      "median_psqm": 4306.0,
+      "center_lat": 51.0,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50169,
+      "count": 68,
+      "median_ww": 36.3,
+      "median_psqm": 2688.5,
+      "center_lat": 50.9,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50170,
+      "count": 19,
+      "median_ww": 45.6,
+      "median_psqm": 2508.0,
+      "center_lat": 50.9,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 50171,
+      "count": 22,
+      "median_ww": 48.4,
+      "median_psqm": 2638.0,
+      "center_lat": 50.9,
+      "center_lng": 6.7
+    },
+    {
+      "zipCode": 50226,
+      "count": 211,
+      "median_ww": 57.1,
+      "median_psqm": 3471.0,
+      "center_lat": 50.9,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50259,
+      "count": 161,
+      "median_ww": 48.1,
+      "median_psqm": 3657.0,
+      "center_lat": 51.0,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50300,
+      "count": 3,
+      "median_ww": 41.6,
+      "median_psqm": 13.3,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50321,
+      "count": 116,
+      "median_ww": 46.1,
+      "median_psqm": 3185.0,
+      "center_lat": 50.8,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50354,
+      "count": 188,
+      "median_ww": 49.3,
+      "median_psqm": 3176.0,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50374,
+      "count": 140,
+      "median_ww": 43.2,
+      "median_psqm": 2813.5,
+      "center_lat": 50.8,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50389,
+      "count": 142,
+      "median_ww": 53.6,
+      "median_psqm": 2820.0,
+      "center_lat": 50.8,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50400,
+      "count": 352,
+      "median_ww": 52.2,
+      "median_psqm": 13.8,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50597,
+      "count": 1,
+      "median_ww": 50.2,
+      "median_psqm": 4015.0,
+      "center_lat": 51.2,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50667,
+      "count": 52,
+      "median_ww": 58.8,
+      "median_psqm": 34.2,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50668,
+      "count": 107,
+      "median_ww": 53.2,
+      "median_psqm": 29.5,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50670,
+      "count": 127,
+      "median_ww": 54.6,
+      "median_psqm": 30.9,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50672,
+      "count": 59,
+      "median_ww": 52.7,
+      "median_psqm": 21.0,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50674,
+      "count": 153,
+      "median_ww": 57.1,
+      "median_psqm": 19.6,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50676,
+      "count": 126,
+      "median_ww": 62.0,
+      "median_psqm": 20.2,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50677,
+      "count": 100,
+      "median_ww": 52.5,
+      "median_psqm": 23.4,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50678,
+      "count": 79,
+      "median_ww": 59.3,
+      "median_psqm": 18.5,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50679,
+      "count": 60,
+      "median_ww": 47.8,
+      "median_psqm": 18.5,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50733,
+      "count": 162,
+      "median_ww": 55.0,
+      "median_psqm": 16.3,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50735,
+      "count": 115,
+      "median_ww": 44.8,
+      "median_psqm": 4270.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50737,
+      "count": 44,
+      "median_ww": 37.1,
+      "median_psqm": 21.9,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50739,
+      "count": 59,
+      "median_ww": 49.6,
+      "median_psqm": 26.4,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50753,
+      "count": 1,
+      "median_ww": 33.2,
+      "median_psqm": 15.7,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50765,
+      "count": 52,
+      "median_ww": 41.8,
+      "median_psqm": 3812.5,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50767,
+      "count": 44,
+      "median_ww": 39.7,
+      "median_psqm": 3295.0,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50769,
+      "count": 75,
+      "median_ww": 33.9,
+      "median_psqm": 3265.0,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50823,
+      "count": 157,
+      "median_ww": 56.6,
+      "median_psqm": 17.0,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50825,
+      "count": 148,
+      "median_ww": 52.8,
+      "median_psqm": 21.8,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50827,
+      "count": 38,
+      "median_ww": 44.1,
+      "median_psqm": 4445.5,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50829,
+      "count": 28,
+      "median_ww": 40.5,
+      "median_psqm": 2647.5,
+      "center_lat": 51.0,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50858,
+      "count": 176,
+      "median_ww": 46.4,
+      "median_psqm": 2811.5,
+      "center_lat": 50.9,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50859,
+      "count": 110,
+      "median_ww": 49.8,
+      "median_psqm": 5078.0,
+      "center_lat": 51.0,
+      "center_lng": 6.8
+    },
+    {
+      "zipCode": 50931,
+      "count": 89,
+      "median_ww": 54.2,
+      "median_psqm": 18.0,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50933,
+      "count": 100,
+      "median_ww": 45.0,
+      "median_psqm": 4383.5,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50935,
+      "count": 61,
+      "median_ww": 51.4,
+      "median_psqm": 17.8,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50937,
+      "count": 120,
+      "median_ww": 52.4,
+      "median_psqm": 15.6,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50939,
+      "count": 58,
+      "median_ww": 50.9,
+      "median_psqm": 17.1,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50968,
+      "count": 223,
+      "median_ww": 52.7,
+      "median_psqm": 30.7,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50969,
+      "count": 78,
+      "median_ww": 55.1,
+      "median_psqm": 3812.5,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50996,
+      "count": 106,
+      "median_ww": 53.4,
+      "median_psqm": 6170.0,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 50997,
+      "count": 98,
+      "median_ww": 41.7,
+      "median_psqm": 2435.5,
+      "center_lat": 50.9,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 50999,
+      "count": 79,
+      "median_ww": 37.9,
+      "median_psqm": 4378.0,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51000,
+      "count": 37,
+      "median_ww": 47.3,
+      "median_psqm": 12.6,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51061,
+      "count": 49,
+      "median_ww": 35.8,
+      "median_psqm": 3052.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51063,
+      "count": 96,
+      "median_ww": 53.0,
+      "median_psqm": 20.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51065,
+      "count": 33,
+      "median_ww": 58.4,
+      "median_psqm": 18.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51067,
+      "count": 50,
+      "median_ww": 40.3,
+      "median_psqm": 3344.5,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51069,
+      "count": 73,
+      "median_ww": 44.3,
+      "median_psqm": 3147.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51103,
+      "count": 131,
+      "median_ww": 55.9,
+      "median_psqm": 18.0,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51105,
+      "count": 76,
+      "median_ww": 49.7,
+      "median_psqm": 17.4,
+      "center_lat": 50.9,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51107,
+      "count": 95,
+      "median_ww": 33.6,
+      "median_psqm": 3061.0,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51109,
+      "count": 82,
+      "median_ww": 39.5,
+      "median_psqm": 2997.0,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51143,
+      "count": 78,
+      "median_ww": 45.0,
+      "median_psqm": 3462.5,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51145,
+      "count": 86,
+      "median_ww": 41.8,
+      "median_psqm": 3338.5,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51147,
+      "count": 95,
+      "median_ww": 42.0,
+      "median_psqm": 3089.0,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51149,
+      "count": 73,
+      "median_ww": 44.7,
+      "median_psqm": 2880.0,
+      "center_lat": 50.9,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51371,
+      "count": 50,
+      "median_ww": 38.7,
+      "median_psqm": 2748.0,
+      "center_lat": 51.1,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 51373,
+      "count": 84,
+      "median_ww": 49.0,
+      "median_psqm": 2655.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51375,
+      "count": 74,
+      "median_ww": 45.2,
+      "median_psqm": 3360.0,
+      "center_lat": 51.0,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51377,
+      "count": 71,
+      "median_ww": 42.0,
+      "median_psqm": 16.2,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51379,
+      "count": 69,
+      "median_ww": 57.2,
+      "median_psqm": 2388.0,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51381,
+      "count": 112,
+      "median_ww": 44.0,
+      "median_psqm": 2768.5,
+      "center_lat": 51.1,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 51399,
+      "count": 45,
+      "median_ww": 41.0,
+      "median_psqm": 2594.0,
+      "center_lat": 51.1,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51400,
+      "count": 2,
+      "median_ww": 44.0,
+      "median_psqm": 10.1,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51427,
+      "count": 89,
+      "median_ww": 54.1,
+      "median_psqm": 3634.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51429,
+      "count": 91,
+      "median_ww": 60.3,
+      "median_psqm": 2803.0,
+      "center_lat": 51.0,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 51465,
+      "count": 79,
+      "median_ww": 56.6,
+      "median_psqm": 3000.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51467,
+      "count": 57,
+      "median_ww": 48.1,
+      "median_psqm": 2975.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51469,
+      "count": 78,
+      "median_ww": 51.0,
+      "median_psqm": 2833.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51491,
+      "count": 35,
+      "median_ww": 39.4,
+      "median_psqm": 2695.0,
+      "center_lat": 50.9,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 51503,
+      "count": 94,
+      "median_ww": 39.9,
+      "median_psqm": 3202.5,
+      "center_lat": 50.9,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 51519,
+      "count": 57,
+      "median_ww": 37.5,
+      "median_psqm": 3019.0,
+      "center_lat": 51.0,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 51731,
+      "count": 1,
+      "median_ww": 43.8,
+      "median_psqm": 27.1,
+      "center_lat": 51.1,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 53332,
+      "count": 100,
+      "median_ww": 41.6,
+      "median_psqm": 2974.5,
+      "center_lat": 50.8,
+      "center_lng": 6.9
+    },
+    {
+      "zipCode": 53797,
+      "count": 20,
+      "median_ww": 32.9,
+      "median_psqm": 2979.5,
+      "center_lat": 50.9,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 53840,
+      "count": 53,
+      "median_ww": 52.0,
+      "median_psqm": 3257.0,
+      "center_lat": 50.8,
+      "center_lng": 7.2
+    },
+    {
+      "zipCode": 53842,
+      "count": 88,
+      "median_ww": 51.2,
+      "median_psqm": 4293.5,
+      "center_lat": 50.8,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 53844,
+      "count": 57,
+      "median_ww": 50.7,
+      "median_psqm": 2989.0,
+      "center_lat": 50.8,
+      "center_lng": 7.1
+    },
+    {
+      "zipCode": 53859,
+      "count": 134,
+      "median_ww": 39.0,
+      "median_psqm": 3783.5,
+      "center_lat": 50.8,
+      "center_lng": 7.0
+    },
+    {
+      "zipCode": 58256,
+      "count": 39,
+      "median_ww": 47.4,
+      "median_psqm": 1346.0,
+      "center_lat": 51.3,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 58285,
+      "count": 29,
+      "median_ww": 47.8,
+      "median_psqm": 14.2,
+      "center_lat": 51.3,
+      "center_lng": 7.3
+    },
+    {
+      "zipCode": 58332,
+      "count": 53,
+      "median_ww": 48.9,
+      "median_psqm": 12.3,
+      "center_lat": 51.3,
+      "center_lng": 7.3
+    }
+  ]
+}

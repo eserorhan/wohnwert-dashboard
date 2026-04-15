@@ -1,0 +1,37 @@
+{
+  "oepnv_kategorien": {
+    "exzellent": 9438,
+    "gut": 5768,
+    "ok": 1749,
+    "schlecht": 231
+  },
+  "pendel_zone_ddorf": {
+    "30-50km": 6382,
+    "<10km": 3646,
+    "20-30km": 3603,
+    "10-20km": 3324,
+    ">50km": 231
+  },
+  "pendel_zone_koeln": {
+    "30-50km": 6864,
+    "<10km": 4421,
+    "10-20km": 3253,
+    "20-30km": 1633,
+    ">50km": 1015
+  },
+  "median_pendel_auto_min": 22.0,
+  "median_pendel_oepnv_min": 36.0,
+  "median_nearest_hbf_km": 5.7,
+  "hbf_verteilung": {
+    "koeln": 5506,
+    "duesseldorf": 3315,
+    "wuppertal": 1954,
+    "leverkusen": 1558,
+    "neuss": 1390,
+    "solingen": 963,
+    "duisburg": 901,
+    "bonn": 582,
+    "moenchengladbach": 521,
+    "remscheid": 496
+  }
+}
