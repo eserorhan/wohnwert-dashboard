@@ -7,7 +7,6 @@ const nextConfig = {
   },
   // Performance für 17k Immobilien
   experimental: {
-    optimizeCss: true,
     optimizeServerReact: true
   },
   // CORS für API Calls
